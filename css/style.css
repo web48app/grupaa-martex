@@ -173,7 +173,7 @@ html[data-theme="dark"] .theme .i-moon{display:none}
 .pcard .fig{border-radius:0;aspect-ratio:1/1;background:var(--bg-2)}
 .pcard .fig img{object-fit:contain;padding:14px}
 .pcard .fig.is-empty{background:var(--bg-2)}
-.pcard .fig.is-empty::after{content:attr(data-code);inset:0;display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:clamp(40px,4vw,64px);color:var(--red-t);opacity:.9;text-align:center;padding:16px;line-height:.9;bottom:auto;left:0;right:0}
+.pcard .fig.is-empty::after{content:attr(data-code);inset:0;display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:clamp(40px,4vw,64px);color:var(--red-t);opacity:.9;text-align:center;padding:16px;line-height:.9;left:0;right:0;bottom:0;top:0}
 .pcard .fig.is-empty[data-code=""]::after{content:"MARTEX";font-size:30px;opacity:.22;letter-spacing:.06em}
 .pcard__tag{position:absolute;top:12px;left:12px;z-index:2;background:var(--red);color:#fff;font-size:12px;font-weight:700;letter-spacing:.08em;padding:5px 9px;border-radius:3px}
 .pcard__body{padding:18px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
